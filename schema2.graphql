@@ -1,0 +1,12 @@
+schema {
+  query: query_root
+}
+
+type query_root {
+  book: Book!
+}
+
+type Book {
+  id: ID!
+  year: Int!
+}

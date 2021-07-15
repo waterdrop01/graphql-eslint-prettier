@@ -1,0 +1,7 @@
+projects:
+  schema1:
+    schema: ./schema1.graphql
+    documents: ./query1.js
+  schema2:
+    schema: ./schema2.graphql
+    documents: ./query2.js
